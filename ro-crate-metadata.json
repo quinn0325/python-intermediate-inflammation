@@ -1,0 +1,57 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+      "@vocab": "http://schema.org/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": [
+        "Python Intermediate Inflammation Analysis"
+      ],
+      "description": [
+        "This repository contains code and data for analyzing inflammation measurements from multiple patients using Python. It demonstrates reproducible research and FAIR data practices."
+      ],
+      "datePublished": [
+        "2025-11-13"
+      ],
+      "license": [
+        "https://opensource.org/licenses/MIT"
+      ],
+      "author": [
+        {
+          "@id": "#Person-1"
+        },
+        {
+          "@id": "#Person-2"
+        }
+      ],
+      "hasPart": []
+    },
+    {
+      "@id": "#Person-1",
+      "@type": "Person",
+      "name": [
+        "Aleksandra Pawlik"
+      ]
+    },
+    {
+      "@id": "#Person-2",
+      "@type": "Person",
+      "name": [
+        "Mateusz Kuzak"
+      ]
+    },
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "identifier": "ro-crate-metadata.json",
+      "about": {
+        "@id": "./"
+      }
+    }
+  ]
+}
